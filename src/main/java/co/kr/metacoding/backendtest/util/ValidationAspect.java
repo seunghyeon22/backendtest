@@ -7,11 +7,9 @@ import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BindingResult;
 
-import javax.naming.Binding;
-
 @Aspect
 @Component
-public class ValidationAdvice {
+public class ValidationAspect {
 
     @Before("@annotation(org.springframework.web.bind.annotation.PostMapping)")
     public void validate(JoinPoint joinPoint) throws Throwable {

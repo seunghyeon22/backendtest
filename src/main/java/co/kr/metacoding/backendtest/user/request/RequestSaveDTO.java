@@ -1,5 +1,6 @@
-package co.kr.metacoding.backendtest.user;
+package co.kr.metacoding.backendtest.user.request;
 
+import co.kr.metacoding.backendtest.user.User;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import lombok.Data;

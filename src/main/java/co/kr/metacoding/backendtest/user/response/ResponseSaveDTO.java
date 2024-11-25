@@ -1,5 +1,6 @@
-package co.kr.metacoding.backendtest.user;
+package co.kr.metacoding.backendtest.user.response;
 
+import co.kr.metacoding.backendtest.user.User;
 import lombok.Data;
 
 @Data

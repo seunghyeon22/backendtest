@@ -15,4 +15,9 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
+
+    public User update( String name){
+        this.name = name;
+        return this;
+    }
 }
