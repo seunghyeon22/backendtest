@@ -24,7 +24,7 @@ public class UserController {
     public ResponseDetailDTO findById(@PathVariable int id) {
         return userService.detail(id);
     }
-    // 수정
+    //
     @PutMapping("/users/{id}")
     public ResponseUpdateDTO update(@PathVariable int id, @Valid @RequestBody RequsetUpdateDTO requsetUpdateDTO, BindingResult bindingResult) {
         return userService.update(id, requsetUpdateDTO);
